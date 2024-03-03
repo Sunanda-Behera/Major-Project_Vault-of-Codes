@@ -1,30 +1,17 @@
-// Java Program to Illustrate book Class that
-// takes Input from the books and related information
-
-// Importing required classes
 import java.util.Scanner;
 
-// Class
 public class book {
 
-    // Class data members
     public int sNo;
     public String bookName;
     public String authorName;
     public int bookQty;
     public int bookQtyCopy;
 
-    // Creating object of Scanner class to
-    // read input from users
     Scanner input = new Scanner(System.in);
 
-    // Method
-    // To add book details
     public book()
     {
-        // Display message for taking input later
-        // taking input via
-        // nextInt() and nextLine() standard methods
         System.out.println("Enter Serial No of Book:");
         this.sNo = input.nextInt();
         input.nextLine();
